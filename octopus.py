@@ -93,8 +93,7 @@ if __name__ == "__main__":
             pet.feed(food)
             print(pet)
         elif action == "x":
-            level = +1
-            pet.rais(level)
+            pet.rais(1)
             print(pet)
         elif action == "q":
             print("Спасибо за игру!")
