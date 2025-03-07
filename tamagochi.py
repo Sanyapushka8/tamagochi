@@ -56,6 +56,6 @@ class Tamagochi:
              `.____,'            `.____,'"""
 
 
-
     def __str__(self):
         return self.view + "\n" +  f"Имя {self.name}, HP: {self._hp}, Голод: {self._hunger}, Уровень: {self._lv}"
+
